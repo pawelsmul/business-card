@@ -1,0 +1,89 @@
+body {
+  font-family: Roboto, sans-serif;
+  color: white;
+}
+
+p {
+  display: block;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+.wrapper {
+  display: flex;
+  border-radius: 10px 0 0 10px;
+  height: 380px;
+  width: 643px;
+  border: 5px solid white;
+}
+
+.box-photo {
+  width: 40%;
+  background-image: url("img/photo.jpg");
+  background-size: cover;
+  border-radius: 10px 0 0 10px;
+  border-right: 2px solid white;
+}
+
+.box-info {
+  width: 60%;
+  color: white;
+}
+
+.box-name {
+  text-transform: uppercase;
+  height: 50%;
+  background: #192028;
+  border-radius: 0 10px 0 0;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+  border-bottom: 2px solid white;
+  box-sizing: border-box;
+}
+
+.name {
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.surname {
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.position {
+  padding-top: 20px;
+  color: #6487A2;
+}
+
+.box-address {
+  height: 50%;
+  background: #2B3944;
+  border-radius: 0 0 10px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 20px;
+}
+
+.address-row {
+  display: flex;
+  font-size: 20px;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+
+.svg-icon {
+  padding-right: 12px;
+}
+
+.street, .mail, .phone {
+  width: 100%;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
